@@ -1,12 +1,10 @@
 # MeliProductos Project
-🇬🇧 > An App where you can find product and see its detail.
-
+🇬🇧 > An App where you can find product and see its detail. <br>
 🇪🇸 > Una App donde puedes encontrar tus productos y ver su detalle.
 
 # About the App / Sobre la aplicación
 🇬🇧 > MeliProductos is an iOS App to find products in a huge catalog. The user can search and view the detail of a particular product.
-The technology used are SwiftUI as a visual framework and MVVM as an architecture pattern.
-
+The technology used are SwiftUI as a visual framework and MVVM as an architecture pattern. <br>
 🇪🇸 > MeliProductos es una aplicación para smartphones iOS, en la cual encontrar productos en un catálogo enorme. El usuario puede buscar y ver el detalle de un producto en particular.
 La tecnología utilizada para la app es SwiftUI como framework visual y MVVM como patrón de arquitectura.
 
