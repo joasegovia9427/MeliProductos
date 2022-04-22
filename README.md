@@ -40,3 +40,10 @@ https://www.figma.com/file/mhUz0NGHBp8BHDYPJVR5ys/MeliProducts?node-id=0%3A1
 ## Screenshots::
 stay tune ;)
 
+# Installation / Instalación
+🇬🇧 > Just download the project, open it xcode, select your device simulator and enjoy.
+Note: no dependencies needs to be install
+🇪🇸 > Simplemente descargue el proyecto, ábralo xcode, seleccione el simulador de su dispositivo y disfrute.
+Nota: no es necesario instalar dependencias
+
+=======
