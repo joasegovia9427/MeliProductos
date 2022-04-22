@@ -42,8 +42,8 @@ stay tune ;)
 
 # Installation / Instalación
 🇬🇧 > Just download the project, open it xcode, select your device simulator and enjoy.
-Note: no dependencies needs to be install
+Note: no dependencies needs to be install. <br>
 🇪🇸 > Simplemente descargue el proyecto, ábralo xcode, seleccione el simulador de su dispositivo y disfrute.
-Nota: no es necesario instalar dependencias
+Nota: no es necesario instalar dependencias.
 
 =======
