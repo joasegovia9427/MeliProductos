@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		204EF52B2815E171003DE895 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 204EF52A2815E171003DE895 /* Kingfisher */; };
+		204EF52F2815EFA0003DE895 /* EmptyViewAux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204EF52E2815EFA0003DE895 /* EmptyViewAux.swift */; };
+		204EF5312815F1D8003DE895 /* ImageByUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204EF5302815F1D8003DE895 /* ImageByUrl.swift */; };
+		20A9A83B2814746100187C9F /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A9A83A2814746100187C9F /* Header.swift */; };
+		20A9A83D2814764E00187C9F /* SearchMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A9A83C2814764E00187C9F /* SearchMain.swift */; };
+		20A9A83F2814777100187C9F /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A9A83E2814777100187C9F /* ProductList.swift */; };
+		20A9A84128147A0500187C9F /* HeaderSimple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A9A84028147A0500187C9F /* HeaderSimple.swift */; };
+		20A9A84328147CDF00187C9F /* ProductDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A9A84228147CDF00187C9F /* ProductDetail.swift */; };
+		20A9A8452814829200187C9F /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A9A8442814829200187C9F /* Product.swift */; };
+		20A9A84928149E1C00187C9F /* ProductListGet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A9A84828149E1C00187C9F /* ProductListGet.swift */; };
 		20F6B1BD281394A000EAC81C /* MeliProductosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F6B1BC281394A000EAC81C /* MeliProductosApp.swift */; };
 		20F6B1BF281394A000EAC81C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F6B1BE281394A000EAC81C /* ContentView.swift */; };
 		20F6B1C1281394A000EAC81C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20F6B1C0281394A000EAC81C /* Assets.xcassets */; };
@@ -35,6 +45,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		204EF52E2815EFA0003DE895 /* EmptyViewAux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewAux.swift; sourceTree = "<group>"; };
+		204EF5302815F1D8003DE895 /* ImageByUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageByUrl.swift; sourceTree = "<group>"; };
+		20A9A83A2814746100187C9F /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		20A9A83C2814764E00187C9F /* SearchMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMain.swift; sourceTree = "<group>"; };
+		20A9A83E2814777100187C9F /* ProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
+		20A9A84028147A0500187C9F /* HeaderSimple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSimple.swift; sourceTree = "<group>"; };
+		20A9A84228147CDF00187C9F /* ProductDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetail.swift; sourceTree = "<group>"; };
+		20A9A8442814829200187C9F /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		20A9A84828149E1C00187C9F /* ProductListGet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListGet.swift; sourceTree = "<group>"; };
 		20F6B1B9281394A000EAC81C /* MeliProductos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeliProductos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20F6B1BC281394A000EAC81C /* MeliProductosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeliProductosApp.swift; sourceTree = "<group>"; };
 		20F6B1BE281394A000EAC81C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				204EF52B2815E171003DE895 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +93,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20A9A8392814745200187C9F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				20A9A83A2814746100187C9F /* Header.swift */,
+				20A9A84028147A0500187C9F /* HeaderSimple.swift */,
+				204EF52E2815EFA0003DE895 /* EmptyViewAux.swift */,
+				204EF5302815F1D8003DE895 /* ImageByUrl.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		20F6B1B0281394A000EAC81C = {
 			isa = PBXGroup;
 			children = (
@@ -100,9 +131,7 @@
 				20F6B1E92813954800EAC81C /* Extensions */,
 				20F6B1E8281394CD00EAC81C /* Views */,
 				20F6B1E7281394BD00EAC81C /* Models */,
-				20F6B1E6281394B100EAC81C /* ViewModel */,
 				20F6B1BC281394A000EAC81C /* MeliProductosApp.swift */,
-				20F6B1BE281394A000EAC81C /* ContentView.swift */,
 				20F6B1C2281394A000EAC81C /* Preview Content */,
 			);
 			path = MeliProductos;
@@ -133,16 +162,11 @@
 			path = MeliProductosUITests;
 			sourceTree = "<group>";
 		};
-		20F6B1E6281394B100EAC81C /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
 		20F6B1E7281394BD00EAC81C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				20A9A8442814829200187C9F /* Product.swift */,
+				20A9A84828149E1C00187C9F /* ProductListGet.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -150,6 +174,9 @@
 		20F6B1E8281394CD00EAC81C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				20A9A8392814745200187C9F /* Components */,
+				20F6B1F62814393200EAC81C /* Application */,
+				20F6B1EE2814382100EAC81C /* Base */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -170,6 +197,56 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		20F6B1EE2814382100EAC81C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		20F6B1EF2814382B00EAC81C /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				20A9A83C2814764E00187C9F /* SearchMain.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		20F6B1F02814383800EAC81C /* ProductList */ = {
+			isa = PBXGroup;
+			children = (
+				20A9A83E2814777100187C9F /* ProductList.swift */,
+			);
+			path = ProductList;
+			sourceTree = "<group>";
+		};
+		20F6B1F12814384700EAC81C /* ProductDetail */ = {
+			isa = PBXGroup;
+			children = (
+				20A9A84228147CDF00187C9F /* ProductDetail.swift */,
+			);
+			path = ProductDetail;
+			sourceTree = "<group>";
+		};
+		20F6B1F32814387F00EAC81C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				20F6B1F02814383800EAC81C /* ProductList */,
+				20F6B1F12814384700EAC81C /* ProductDetail */,
+				20F6B1EF2814382B00EAC81C /* Search */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		20F6B1F62814393200EAC81C /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				20F6B1BE281394A000EAC81C /* ContentView.swift */,
+				20F6B1F32814387F00EAC81C /* Main */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -186,6 +263,9 @@
 			dependencies = (
 			);
 			name = MeliProductos;
+			packageProductDependencies = (
+				204EF52A2815E171003DE895 /* Kingfisher */,
+			);
 			productName = MeliProductos;
 			productReference = 20F6B1B9281394A000EAC81C /* MeliProductos.app */;
 			productType = "com.apple.product-type.application";
@@ -258,6 +338,9 @@
 				Base,
 			);
 			mainGroup = 20F6B1B0281394A000EAC81C;
+			packageReferences = (
+				204EF5292815E171003DE895 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 20F6B1BA281394A000EAC81C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -302,6 +385,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				20F6B1BF281394A000EAC81C /* ContentView.swift in Sources */,
+				204EF52F2815EFA0003DE895 /* EmptyViewAux.swift in Sources */,
+				20A9A8452814829200187C9F /* Product.swift in Sources */,
+				20A9A83F2814777100187C9F /* ProductList.swift in Sources */,
+				20A9A84928149E1C00187C9F /* ProductListGet.swift in Sources */,
+				20A9A83B2814746100187C9F /* Header.swift in Sources */,
+				20A9A84328147CDF00187C9F /* ProductDetail.swift in Sources */,
+				20A9A83D2814764E00187C9F /* SearchMain.swift in Sources */,
+				204EF5312815F1D8003DE895 /* ImageByUrl.swift in Sources */,
+				20A9A84128147A0500187C9F /* HeaderSimple.swift in Sources */,
 				20F6B1BD281394A000EAC81C /* MeliProductosApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -469,6 +561,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -498,6 +591,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -627,6 +721,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		204EF5292815E171003DE895 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		204EF52A2815E171003DE895 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 204EF5292815E171003DE895 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 20F6B1B1281394A000EAC81C /* Project object */;
 }
