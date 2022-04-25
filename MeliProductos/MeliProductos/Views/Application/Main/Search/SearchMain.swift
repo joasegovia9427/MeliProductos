@@ -13,7 +13,7 @@ var global_textToSearch:String = ""
 struct SearchMain: View {
     @Environment(\.openURL) var openURL
     
-    @State var input_textSearch = "Motorola G6"
+    @State var input_textSearch = ""//"Motorola G6"
     @State var isProductsInfoEmpty = false
     @State var isInputTextSearchEmpty = false
     @State var isNavigateToProductListActive:Bool = false
