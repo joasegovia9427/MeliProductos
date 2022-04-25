@@ -108,6 +108,6 @@ En dicho proyecto, puse en práctica todas las habilidades aprendidas hasta el m
 
 
 --------------------------------
-Joaquin Segovia 2022/4/25<br>
+> Joaquin Segovia 2022/4/25<br>
 --------------------------------
 =======
