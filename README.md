@@ -46,7 +46,8 @@ https://www.figma.com/file/mhUz0NGHBp8BHDYPJVR5ys/MeliProducts?node-id=0%3A1
 
 <img src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/screen03b.png" width="30px" data-canonical-src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/screen03b.png" style="width: 100%;">
 
-<img src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/screen03b.png" width="30px" data-canonical-src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/screen03b.png" style="width: 100%;">
+
+![](DemoRotationKeepState.gif)
 
 https://youtu.be/-RdsUkPBUJs
 
