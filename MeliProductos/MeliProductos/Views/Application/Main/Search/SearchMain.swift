@@ -101,7 +101,7 @@ struct SearchMain: View {
                                 }
                             }).padding(.bottom, 50)
                             
-                            Spacer().frame(width: 1, height: 150)
+//                            Spacer().frame(width: 1, height: 150)
                             
                         }.ignoresSafeArea()
                     } else {
@@ -119,7 +119,9 @@ struct SearchMain: View {
                 .onTapGesture {
                     UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
 //                                    UIApplication.shared.keyWindow?.endEditing(true)
-                }
+                }.onAppear(perform: {
+                    UIScrollView.appearance().keyboardDismissMode = .onDrag
+                })
         }
     }
     
