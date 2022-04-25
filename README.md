@@ -65,9 +65,9 @@ https://youtu.be/-RdsUkPBUJs
 <table style="width: 100%; border-collapse: collapse; border-style: none;" border="0">
 <tbody>
 <tr>
-<td style="width: 25%;"><img src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/ss01-LaunchScreen.png" width="30px" data-canonical-src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/ss01-LaunchScreen.png" style="width: 300px;"></td>
-<td style="width: 25%;"><img src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/ss03-SearchScreenEmptyAlert.png" width="30px" data-canonical-src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/ss03-SearchScreenEmptyAlert.png" style="width: 300px;"></td>
-<td style="width: 25%;"><img src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/ss04-ListScreenEmptyGrid.png" width="30px" data-canonical-src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/ss04-ListScreenEmptyGrid.png" style="width: 300px;"></td>
+  <td style="width: 25%;"><img src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/ss01-LaunchScreen.png" width="100%"></td>
+  <td style="width: 25%;"><img src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/ss03-SearchScreenEmptyAlert.png" width="100%"></td>
+  <td style="width: 25%;"><img src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/ss04-ListScreenEmptyGrid.png" width="100%"></td>
 </tr>
 </tbody>
 </table>
