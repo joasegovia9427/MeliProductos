@@ -1,7 +1,5 @@
 <img src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/Assest/Brand/PNG/ImagotipoLandscape.png" width="100%">
 
-
-
 # MeliProductos Project
 🇬🇧 > An App where you can find product and see its detail. <br>
 🇪🇸 > Una App donde puedes encontrar tus productos y ver su detalle.
@@ -115,3 +113,5 @@ En dicho proyecto, puse en práctica todas las habilidades aprendidas hasta el m
 > Joaquin Segovia 2022/4/25<br>
 --------------------------------
 =======
+<img src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/Assest/Brand/PNG/ImagotipoWithOutBG.png" width="100%" max-height="300px">
+
