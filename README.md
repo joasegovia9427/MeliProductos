@@ -1,4 +1,4 @@
-<p><img style="width: 100%;" src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/Assest/Brand/PNG/ImagotipoLandscape.png" width="30px" data-canonical-src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/Assest/Brand/PNG/ImagotipoLandscape.png" /></p>
+<p><img style="width: 100%; object-fit: scale-down; max-width: 100%;" src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/Assest/Brand/PNG/ImagotipoLandscape.png" width="30px" data-canonical-src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/Assest/Brand/PNG/ImagotipoLandscape.png" /></p>
 
 # MeliProductos Project
 🇬🇧 > An App where you can find product and see its detail. <br>
