@@ -77,8 +77,8 @@ KingFisher for url images
 Repo: https://github.com/onevcat/Kingfisher.git
 
 # Installation / Instalación
-🇬🇧 > Just download the project, open it xcode, select your device simulator and enjoy.<br>
-🇪🇸 > Simplemente descargue el proyecto, ábralo xcode, seleccione el simulador de su dispositivo y disfrute.
+🇬🇧 > Just download the project, open it xcode, select your device simulator and enjoy. It dosen't ask for any permission, only internet<br>
+🇪🇸 > Simplemente descargue el proyecto, ábralo xcode, seleccione el simulador de su dispositivo y disfrute. La app no requiere ningun permiso extra, solo internet
 
 # Closure / Cierre
 
