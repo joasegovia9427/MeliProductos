@@ -1,4 +1,4 @@
-<table style="height: 18px; width: 100%; border-collapse: collapse; border-style: none;" border="0">
+<table style="height: 18px; width: 100%; border-collapse: collapse; border-style: none; background-color: #ffffff;" border="0">
 <tbody>
 <tr style="height: 18px;">
 <td style="width: 20%; height: 18px;">&nbsp;</td>
