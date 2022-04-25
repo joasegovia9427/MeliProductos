@@ -37,7 +37,7 @@ https://docs.google.com/document/d/1iFs4nmE1Bxvh0JQSIJkaK7kC1pd697c2uFuwvtrb5Gk/
 
 # Design and preview / Diseño y vista previa
 ## Figma Link::
-https://www.figma.com/file/mhUz0NGHBp8BHDYPJVR5ys/MeliProducts?node-id=0%3A1
+https://www.figma.com/file/mhUz0NGHBp8BHDYPJVR5ys/MeliProducts?node-id=1%3A3
 
 ## Demo (rotation keep state feature)::
 ![](DemoRotationKeepState.gif)
