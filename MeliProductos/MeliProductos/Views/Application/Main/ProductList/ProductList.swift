@@ -23,7 +23,7 @@ struct ProductList: View {
     @State var detail_product_condition: String?
     
     @State var productToSendDetail: Result?
-    
+
     @ObservedObject var productResultadoJSONListFound = ProductListGet(productName: global_textToSearch)
     
     let formaGrid = [

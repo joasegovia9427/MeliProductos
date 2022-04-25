@@ -6,18 +6,21 @@
 //
 
 import SwiftUI
+import Combine
 
 var global_textToSearch:String = ""
 
 struct SearchMain: View {
     @Environment(\.openURL) var openURL
     
-    @State var input_textSearch = ""//"Motorola G6"
+    @State var input_textSearch = "Motorola G6"
     @State var isProductsInfoEmpty = false
     @State var isInputTextSearchEmpty = false
     @State var isNavigateToProductListActive:Bool = false
     
+    
     var body: some View {
+        
         ZStack {
             Color(.white).ignoresSafeArea()
             VStack{
@@ -35,6 +38,12 @@ struct SearchMain: View {
                                         Text("Buscar en Meli Productos").font(.caption).foregroundColor(Color("gray-dark")).font(.caption)
                                     }
                                     TextField("", text: $input_textSearch).foregroundColor(Color("primary"))
+                                        .onReceive(Just(input_textSearch)) { input_textSearch in
+                                            print("input_textSearch:\(input_textSearch)")
+                                            global_textToSearch = input_textSearch
+                                            print("global_textToSearch:\(global_textToSearch)")
+                                        }
+                                    
                                 }
                                 
                                 if(input_textSearch.isEmpty){
@@ -96,6 +105,10 @@ struct SearchMain: View {
                 
             }.navigationBarHidden(true)
                 .navigationBarBackButtonHidden(true)
+                .onDisappear(perform: {
+                    global_textToSearch = input_textSearch
+                })
+            
         }
     }
     
