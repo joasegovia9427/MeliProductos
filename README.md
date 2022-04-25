@@ -1,13 +1,3 @@
-<table style="height: 18px; width: 100%; border-collapse: collapse; border-style: none; background-color: #ffffff;" border="0">
-<tbody>
-<tr style="height: 18px;">
-<td style="width: 20%; height: 18px;">&nbsp;</td>
-<td style="width: 60%; height: 18px;"><img style="width: 100%;" src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/Assest/Brand/PNG/ImagotipoLandscape.png" width="30px" data-canonical-src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/Assest/Brand/PNG/ImagotipoLandscape.png" /></td>
-<td style="width: 20%; height: 18px;">&nbsp;</td>
-</tr>
-</tbody>
-</table>
-
 <p><img style="width: 100%;" src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/Assest/Brand/PNG/ImagotipoLandscape.png" width="30px" data-canonical-src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/Assest/Brand/PNG/ImagotipoLandscape.png" /></p>
 
 # MeliProductos Project
