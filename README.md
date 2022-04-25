@@ -107,6 +107,6 @@ En dicho proyecto, puse en práctica todas las habilidades aprendidas hasta el m
 7. Agregar animaciones ‘progressBar/loader’ en peticiones web async
 
 
-=======
-Joaquin Segovia 2022/4/25
+=======<br>
+Joaquin Segovia 2022/4/25<br>
 =======
