@@ -70,11 +70,45 @@ https://youtu.be/-RdsUkPBUJs
 </tbody>
 </table>
 
+# Dependencies / Dependencias
+KingFisher for url images
+Repo: https://github.com/onevcat/Kingfisher.git
 
 # Installation / Instalación
-🇬🇧 > Just download the project, open it xcode, select your device simulator and enjoy.
-Note: no dependencies needs to be install. <br>
+🇬🇧 > Just download the project, open it xcode, select your device simulator and enjoy.<br>
 🇪🇸 > Simplemente descargue el proyecto, ábralo xcode, seleccione el simulador de su dispositivo y disfrute.
-Nota: no es necesario instalar dependencias.
+
+# Closure / Cierre
+
+🇬🇧 > I consider that the realization of this project was a very good opportunity to evaluate my current status as a professional.
+In this project, I put into practice all the skills learned so far and apply what I am passionate about, creating solutions, creating products, creating applications that an end user can use, and which is useful to them.<br>
+🇪🇸 > Considero que la realización de este proyecto fue una muy buena oportunidad para evaluar mi estado actual como profesional.
+En dicho proyecto, puse en práctica todas las habilidades aprendidas hasta el momento y aplicar lo que me apasiona, crear soluciones, crear productos, crear aplicaciones que un usuario final pueda usar, y la cual le sea útil.
+
+## Future features
+
+🇬🇧 > Although there are details that can be improved, I am attaching a list of features that I would like to implement.
+1. Add Test throughout the project
+2. Improve loading times
+3. Add pagination to the ListView
+4. Add search field in all views
+5. Add Authentication (Login and Registration)
+6. Add a tabView with options to Search, List Categories, Profile and Edit Profile, Favorites, etc.
+7. Add 'progressBar/loader' animations in async web requests
+<br>
+
+🇪🇸 > Si bien hay detalles que se pueden mejorar, adjunto lista de features que me gustaría implementar.
+1. Agregar Test en todo el proyecto
+2. Mejorar los tiempos de cargas
+3. Agregar paginado al ListView
+4. Agregar campo de búsqueda en todas las vistas
+5. Agregar Authentication (Iniciar sesión y Registro)
+6. Agregar un tabView con opciones para Buscar, Listar Categorías, Perfil y Editar Perfil, Favoritos, etc.
+7. Agregar animaciones ‘progressBar/loader’ en peticiones web async
+
+
+Joaquin Segovia 2022/4/25
+
+
 
 =======
