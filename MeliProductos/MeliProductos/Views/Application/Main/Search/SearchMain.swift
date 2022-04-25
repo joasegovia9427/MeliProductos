@@ -28,11 +28,11 @@ struct SearchMain: View {
                     if #available(iOS 14.7, *) {
                         VStack{
                             //// + Header
-//                            Button(action: {UIApplication.shared.keyWindow?.endEditing(true)}, label: {
-                                Header(textToShow: "Busca tu producto")
-                                
+                            //                            Button(action: {UIApplication.shared.keyWindow?.endEditing(true)}, label: {
+                            Header(textToShow: "Busca tu producto")
                             
-//                            })
+                            
+                            //                            })
                             //// - Header
                             
                             VStack{
@@ -100,9 +100,6 @@ struct SearchMain: View {
                                     Image("linkedin").resizable().aspectRatio( contentMode: .fit).frame(width: 20, height: 20, alignment: .center)
                                 }
                             }).padding(.bottom, 50)
-                            
-//                            Spacer().frame(width: 1, height: 150)
-                            
                         }.ignoresSafeArea()
                     } else {
                         // Fallback on earlier versions
@@ -117,8 +114,11 @@ struct SearchMain: View {
                     })
             }.ignoresSafeArea()
                 .onTapGesture {
-                    UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
-//                                    UIApplication.shared.keyWindow?.endEditing(true)
+                    if #available(iOS 13.0, *) {
+                        UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
+                    }else{
+                        UIApplication.shared.keyWindow?.endEditing(true)
+                    }
                 }.onAppear(perform: {
                     UIScrollView.appearance().keyboardDismissMode = .onDrag
                 })
