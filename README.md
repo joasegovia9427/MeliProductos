@@ -2,6 +2,8 @@
 🇬🇧 > An App where you can find product and see its detail. <br>
 🇪🇸 > Una App donde puedes encontrar tus productos y ver su detalle.
 
+<img src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/Assest/Brand/PNG/ImagotipoLandscape.png" width="30px" data-canonical-src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/Assest/Brand/PNG/ImagotipoLandscape.png" style="width: 50%;">
+
 # About the App / Sobre la aplicación
 🇬🇧 > MeliProductos is an iOS App to find products in a huge catalog. The user can search and view the detail of a particular product.
 The technology used are SwiftUI as a visual framework and MV as an architecture pattern. <br>
