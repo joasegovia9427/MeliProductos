@@ -13,19 +13,26 @@ struct Header: View {
     var body: some View {
         VStack{
             ZStack{
-                Color("meli-Yellow")
+                Color("meli-Yellow").ignoresSafeArea()
+                
                 VStack{
-                    Image("Imagotipo").resizable().aspectRatio( contentMode: .fit).frame(height: 100)
+                    Image("Imagotipo")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 300).padding(.top, 20)
+                    
                     if(!textToShow.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
                     {
+                        Divider().frame(height: 1).background(Color("yellow-op50")).frame(width: 300)
+                        
                         Text(textToShow.trimmingCharacters(in: .whitespacesAndNewlines))
                             .font(.title)
                             .fontWeight(.bold)
-                            .foregroundColor(Color("meli-Blue"))
+                            .foregroundColor(Color("meli-Blue")).padding()
                     }
-                }
+                }.frame(maxWidth: .infinity, maxHeight: .infinity)
             }
-        }.frame(height: 200, alignment: .top)
+        }.frame(height: 350, alignment: .top)
     }
 }
 

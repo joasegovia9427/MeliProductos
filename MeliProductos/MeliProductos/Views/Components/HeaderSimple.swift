@@ -13,7 +13,7 @@ struct HeaderSimple: View {
     var body: some View {
         VStack{
             ZStack{
-                Color("meli-Yellow")
+                Color("meli-Yellow").ignoresSafeArea()
                 VStack{
                     Image("ImagotipoLandscape").resizable().aspectRatio( contentMode: .fit).frame(height: 25).padding(.top,50)
                     if(!textToShow.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)

@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		204EF52B2815E171003DE895 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 204EF52A2815E171003DE895 /* Kingfisher */; };
-		204EF52F2815EFA0003DE895 /* EmptyViewAux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204EF52E2815EFA0003DE895 /* EmptyViewAux.swift */; };
 		204EF5312815F1D8003DE895 /* ImageByUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204EF5302815F1D8003DE895 /* ImageByUrl.swift */; };
+		204EF53C281618D2003DE895 /* NoProductsFound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204EF53B281618D2003DE895 /* NoProductsFound.swift */; };
+		204EF53E28161AD8003DE895 /* ChangeNavColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204EF53D28161AD8003DE895 /* ChangeNavColor.swift */; };
+		204EF54028164B35003DE895 /* LoadingProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204EF53F28164B35003DE895 /* LoadingProducts.swift */; };
 		20A9A83B2814746100187C9F /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A9A83A2814746100187C9F /* Header.swift */; };
 		20A9A83D2814764E00187C9F /* SearchMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A9A83C2814764E00187C9F /* SearchMain.swift */; };
 		20A9A83F2814777100187C9F /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A9A83E2814777100187C9F /* ProductList.swift */; };
@@ -45,8 +47,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		204EF52E2815EFA0003DE895 /* EmptyViewAux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewAux.swift; sourceTree = "<group>"; };
 		204EF5302815F1D8003DE895 /* ImageByUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageByUrl.swift; sourceTree = "<group>"; };
+		204EF53228160D6D003DE895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		204EF53B281618D2003DE895 /* NoProductsFound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoProductsFound.swift; sourceTree = "<group>"; };
+		204EF53D28161AD8003DE895 /* ChangeNavColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeNavColor.swift; sourceTree = "<group>"; };
+		204EF53F28164B35003DE895 /* LoadingProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingProducts.swift; sourceTree = "<group>"; };
 		20A9A83A2814746100187C9F /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		20A9A83C2814764E00187C9F /* SearchMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMain.swift; sourceTree = "<group>"; };
 		20A9A83E2814777100187C9F /* ProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
@@ -98,8 +103,9 @@
 			children = (
 				20A9A83A2814746100187C9F /* Header.swift */,
 				20A9A84028147A0500187C9F /* HeaderSimple.swift */,
-				204EF52E2815EFA0003DE895 /* EmptyViewAux.swift */,
 				204EF5302815F1D8003DE895 /* ImageByUrl.swift */,
+				204EF53B281618D2003DE895 /* NoProductsFound.swift */,
+				204EF53F28164B35003DE895 /* LoadingProducts.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 		20F6B1BB281394A000EAC81C /* MeliProductos */ = {
 			isa = PBXGroup;
 			children = (
+				204EF53228160D6D003DE895 /* Info.plist */,
 				20F6B1EA2813955300EAC81C /* Resources */,
 				20F6B1E92813954800EAC81C /* Extensions */,
 				20F6B1E8281394CD00EAC81C /* Views */,
@@ -176,7 +183,6 @@
 			children = (
 				20A9A8392814745200187C9F /* Components */,
 				20F6B1F62814393200EAC81C /* Application */,
-				20F6B1EE2814382100EAC81C /* Base */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -184,6 +190,7 @@
 		20F6B1E92813954800EAC81C /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				204EF53D28161AD8003DE895 /* ChangeNavColor.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -195,13 +202,6 @@
 				20F6B1EC2813959100EAC81C /* Colours.xcassets */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		20F6B1EE2814382100EAC81C /* Base */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Base;
 			sourceTree = "<group>";
 		};
 		20F6B1EF2814382B00EAC81C /* Search */ = {
@@ -384,15 +384,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				204EF54028164B35003DE895 /* LoadingProducts.swift in Sources */,
 				20F6B1BF281394A000EAC81C /* ContentView.swift in Sources */,
-				204EF52F2815EFA0003DE895 /* EmptyViewAux.swift in Sources */,
 				20A9A8452814829200187C9F /* Product.swift in Sources */,
 				20A9A83F2814777100187C9F /* ProductList.swift in Sources */,
 				20A9A84928149E1C00187C9F /* ProductListGet.swift in Sources */,
 				20A9A83B2814746100187C9F /* Header.swift in Sources */,
 				20A9A84328147CDF00187C9F /* ProductDetail.swift in Sources */,
+				204EF53E28161AD8003DE895 /* ChangeNavColor.swift in Sources */,
 				20A9A83D2814764E00187C9F /* SearchMain.swift in Sources */,
 				204EF5312815F1D8003DE895 /* ImageByUrl.swift in Sources */,
+				204EF53C281618D2003DE895 /* NoProductsFound.swift in Sources */,
 				20A9A84128147A0500187C9F /* HeaderSimple.swift in Sources */,
 				20F6B1BD281394A000EAC81C /* MeliProductosApp.swift in Sources */,
 			);
@@ -556,6 +558,7 @@
 				DEVELOPMENT_TEAM = 5Z53LMM5TS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MeliProductos/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -586,6 +589,7 @@
 				DEVELOPMENT_TEAM = 5Z53LMM5TS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MeliProductos/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
