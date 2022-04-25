@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+//This car could be load by an api, based on country
 let mercadoPagoLink = "https://articulo.mercadolibre.com.uy/noindex/services/MLU478228904/payments?new_version=true&modal=false&newIndex=true"
 
 struct ProductDetail: View {
@@ -142,6 +143,7 @@ struct ProductDetail: View {
                 .onAppear(perform: {
                     changeNavColor()
                     
+                    //This section is used to format and picture the variables and atts of Product to show
                     product_url = productDetailIn!.thumbnail.trimmingCharacters(in: .whitespacesAndNewlines) //"https://http2.mlstatic.com/D_943484-MLA46651720937_072021-I.jpg"//
                     product_title = productDetailIn!.title.trimmingCharacters(in: .whitespacesAndNewlines) //"Motorola"//
                     product_price = String(format: "%.02f", productDetailIn!.price) //"59000"//

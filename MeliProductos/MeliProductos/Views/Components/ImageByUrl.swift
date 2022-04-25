@@ -22,8 +22,8 @@ struct ImageByUrl: View {
         }()
         
         if #available(iOS 15.0, *) {
-            //A partir de iOS 15 se podria usar                              https://developer.apple.com/documentation/swiftui/asyncimage
-            
+            //A partir de iOS 15 se podria usar https://developer.apple.com/documentation/swiftui/asyncimage
+            //If there is iOS15, we can use the default function
             AsyncImage( url: URL( string: urlToLoadFix )!  )
             { image in
                 image
@@ -36,6 +36,7 @@ struct ImageByUrl: View {
                 placeholderImage()
             }
         } else {
+            //But if there is not iOS15, we must use a external way to show a image by url
             KFImage(URL(string: urlToLoadFix)!).resizable()
                 .aspectRatio(contentMode: .fit)
                 .clipShape(RoundedRectangle.init(cornerRadius: 4))
@@ -51,7 +52,6 @@ func placeholderImage() -> some View {
         .renderingMode(.template)
         .resizable()
         .aspectRatio(contentMode: .fit)
-    
         .frame(width: 150, height: 150)
         .foregroundColor(.gray)
 }

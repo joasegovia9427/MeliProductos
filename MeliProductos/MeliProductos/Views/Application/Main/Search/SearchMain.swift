@@ -23,20 +23,16 @@ struct SearchMain: View {
         
         ZStack {
             Color(.white).ignoresSafeArea()
-            ScrollView(showsIndicators: false){
-                VStack{
-                    if #available(iOS 14.7, *) {
+            if #available(iOS 14.7, *) { //ScrollView availability 13+
+                ScrollView(showsIndicators: false){
+                    VStack{
                         VStack{
                             //// + Header
-                            //                            Button(action: {UIApplication.shared.keyWindow?.endEditing(true)}, label: {
                             Header(textToShow: "Busca tu producto")
-                            
-                            
-                            //                            })
                             //// - Header
                             
                             VStack{
-                                //// + TextField Search Component
+                                //// + TextField Search Component //This could be moved to a separate file
                                 HStack{
                                     ZStack(alignment: .leading){
                                         if(input_textSearch.isEmpty){
@@ -48,7 +44,6 @@ struct SearchMain: View {
                                                 global_textToSearch = input_textSearch
                                                 print("global_textToSearch:\(global_textToSearch)")
                                             }
-                                        
                                     }
                                     
                                     if(input_textSearch.isEmpty){
@@ -74,6 +69,7 @@ struct SearchMain: View {
                                 }.padding(.all, 11.0).background(Color("gray-light")).cornerRadius(10)
                                 /// - TextField Search Component
                                 
+                                //This component could be moved to a separate file
                                 Button(action: {searchProduct(textToSearch: input_textSearch)}, label: {
                                     Text(String("Buscar"))
                                         .fontWeight(.bold)
@@ -88,7 +84,7 @@ struct SearchMain: View {
                             }.padding(.all, 20)
                             
                             //                        Spacer()
-                            //Implementare categorias Dentro de un ScrollView
+                            //This space could be used to load some categories
                             
                             Spacer().frame(height: 50 )
                             
@@ -101,31 +97,33 @@ struct SearchMain: View {
                                 }
                             }).padding(.bottom, 50)
                         }.ignoresSafeArea()
-                    } else {
-                        // Fallback on earlier versions
-                    }
-                    
-                    NavigationLink(isActive: $isNavigateToProductListActive, destination: {ProductList(textFromPreviousView: input_textSearch)}, label: {EmptyView()})
-                    
-                }.navigationBarHidden(true)
-                    .navigationBarBackButtonHidden(true)
-                    .onDisappear(perform: {
-                        global_textToSearch = input_textSearch
+                        
+                        NavigationLink(isActive: $isNavigateToProductListActive, destination: {ProductList(textFromPreviousView: input_textSearch)}, label: {EmptyView()})
+                        
+                    }.navigationBarHidden(true)
+                        .navigationBarBackButtonHidden(true)
+                        .onDisappear(perform: {
+                            global_textToSearch = input_textSearch
+                        })
+                }.ignoresSafeArea()
+                    .onTapGesture {
+                        //This code is to manage the keyboard behaviour when you want to tap 'Search'
+                        if #available(iOS 13.0, *) {
+                            UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
+                        }else{
+                            UIApplication.shared.keyWindow?.endEditing(true)
+                        }
+                    }.onAppear(perform: {
+                        UIScrollView.appearance().keyboardDismissMode = .onDrag
                     })
-            }.ignoresSafeArea()
-                .onTapGesture {
-                    if #available(iOS 13.0, *) {
-                        UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
-                    }else{
-                        UIApplication.shared.keyWindow?.endEditing(true)
-                    }
-                }.onAppear(perform: {
-                    UIScrollView.appearance().keyboardDismissMode = .onDrag
-                })
+            } else {
+                // Fallback on earlier versions
+            }
         }
     }
     
     func searchProduct(textToSearch: String) {
+        //This funciont could be used to log something
         print("func searchProduct(textToSearch: String)::\(textToSearch)")
         input_textSearch = input_textSearch.trimmingCharacters(in: .whitespacesAndNewlines)
         if textToSearch.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {

@@ -5,6 +5,8 @@
 //  Created by Joaquin Segovia on 24/4/22.
 //
 
+//This component retrive a view for empty products list when api return a 0 size list
+//Here it could be develop an animation or wharever for empty list
 import SwiftUI
 
 struct NoProductsFound: View {

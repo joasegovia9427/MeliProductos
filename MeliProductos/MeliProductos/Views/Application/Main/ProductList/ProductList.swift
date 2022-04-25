@@ -42,6 +42,7 @@ struct ProductList: View {
                 VStack{
                     
                     if productResultadoJSONListFound.productsArray.count == 0{
+                        // Here i tried to load a kind of progress image but i couldn't make it
                         //                        ZStack{
                         //                            LoadingProducts()
                         //                            VStack{
@@ -121,6 +122,7 @@ struct ProductList: View {
     }
     
     func loadProductList(textToSearch: String) {
+        //This function could be used to log something
         print("func loadListProduct(textToSearch: String)::\(textToSearch)")
     }
     

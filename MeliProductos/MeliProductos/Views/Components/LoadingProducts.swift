@@ -4,7 +4,7 @@
 //
 //  Created by Joaquin Segovia on 25/4/22.
 //
-
+//This component retrive a view to use as a progress bar. Now is a image but it could be a animation
 import SwiftUI
 
 struct LoadingProducts: View {

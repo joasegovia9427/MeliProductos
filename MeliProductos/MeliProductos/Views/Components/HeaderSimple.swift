@@ -5,6 +5,8 @@
 //  Created by Joaquin Segovia on 23/4/22.
 //
 
+////This component is for seconds or minor screen which required a small header
+
 import SwiftUI
 
 struct HeaderSimple: View {

@@ -5,6 +5,7 @@
 //  Created by Joaquin Segovia on 23/4/22.
 //
 
+////This component is for first or main screen which required a big header
 import SwiftUI
 
 struct Header: View {
