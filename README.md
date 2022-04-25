@@ -44,6 +44,7 @@ If you dont see the gif, YouTube Link
 https://youtu.be/-RdsUkPBUJs
 
 ## Screenshots::
+<h3> You can find all timeline in <a title="ScreensShots Folder" href="https://github.com/joasegovia9427/MeliProductos/tree/main/ScreenShots" target="_blank">ScreensShots Folder</a></h3>
 
 ### Screen1-Search::
 <img src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/screen01.png" width="30px" data-canonical-src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/screen01.png" style="width: 100%;">
@@ -54,7 +55,20 @@ https://youtu.be/-RdsUkPBUJs
 ### Screen3-Detail::
 <img src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/screen03a.png" width="30px" data-canonical-src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/screen03a.png" style="width: 100%;">
 
-<img src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/screen03b.png" width="30px" data-canonical-src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/screen03b.png" style="width: 100%;">
+### Others::
+<img src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/ss05b-ListScreenList-Landscape.png" width="30px" data-canonical-src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/ss05b-ListScreenList-Landscape.png" style="width: 100%;">
+
+<img src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/ss06b-DetailScreen-Landscape.png" width="30px" data-canonical-src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/ss06b-DetailScreen-Landscape.png" style="width: 100%;">
+
+<table style="width: 100%; border-collapse: collapse; border-style: none;" border="0">
+<tbody>
+<tr>
+<td style="width: 25%;"><img src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/ss01-LaunchScreen.png" width="30px" data-canonical-src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/ss01-LaunchScreen.png" style="width: 300px;"></td>
+<td style="width: 25%;"><img src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/ss03-SearchScreenEmptyAlert.png" width="30px" data-canonical-src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/ss03-SearchScreenEmptyAlert.png" style="width: 300px;"></td>
+<td style="width: 25%;"><img src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/ss04-ListScreenEmptyGrid.png" width="30px" data-canonical-src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/ss04-ListScreenEmptyGrid.png" style="width: 300px;"></td>
+</tr>
+</tbody>
+</table>
 
 
 # Installation / Instalación
