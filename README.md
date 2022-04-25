@@ -51,18 +51,16 @@ https://youtu.be/-RdsUkPBUJs
 ### Screen1-Search::
 <img src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/screen01.png" width="100%">
 
-<img src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/screen01.png" width="30px" data-canonical-src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/screen01.png" style="width: 100%;">
-
 ### Screen2-List::
-<img src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/screen02.png" width="30px" data-canonical-src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/screen02.png" style="width: 100%;">
+<img src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/screen02.png" width="100%">
 
 ### Screen3-Detail::
-<img src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/screen03a.png" width="30px" data-canonical-src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/screen03a.png" style="width: 100%;">
+<img src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/screen03a.png" width="100%">
 
 ### Others::
-<img src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/ss05b-ListScreenList-Landscape.png" width="30px" data-canonical-src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/ss05b-ListScreenList-Landscape.png" style="width: 100%;">
+<img src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/ss05b-ListScreenList-Landscape.png" width="100%">
 
-<img src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/ss06b-DetailScreen-Landscape.png" width="30px" data-canonical-src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/ss06b-DetailScreen-Landscape.png" style="width: 100%;">
+<img src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/ss06b-DetailScreen-Landscape.png" width="100%">
 
 <table style="width: 100%; border-collapse: collapse; border-style: none;" border="0">
 <tbody>
