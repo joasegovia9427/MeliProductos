@@ -23,7 +23,7 @@ struct ProductList: View {
     @State var detail_product_condition: String?
     
     @State var productToSendDetail: Result?
-
+    
     @ObservedObject var productResultadoJSONListFound = ProductListGet(productName: global_textToSearch)
     
     let formaGrid = [
@@ -40,17 +40,19 @@ struct ProductList: View {
                 Text("Resultados obtenidos para su busqueda: \(productResultadoJSONListFound.productsArray.count)")
                     .foregroundColor(Color("gray-dark")).padding(.horizontal, 10.0)
                 VStack{
+                    
                     if productResultadoJSONListFound.productsArray.count == 0{
-                        
-                        {() -> Text in
-                            LoadingProducts()
-                            DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
-                                NoProductsFound()
-                            }
-                            return Text("")
-                        }()
-                        
-                        
+                        //                        ZStack{
+                        //                            LoadingProducts()
+                        //                            VStack{
+                        //                                {() -> Text in
+                        //                                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+                        NoProductsFound()
+                        //                                    }
+                        //                                    return Text("")
+                        //                                }()
+                        //                            }
+                        //                        }
                     }else{
                         ScrollView(showsIndicators: true){
                             VStack{

@@ -19,6 +19,8 @@
 		20A9A84328147CDF00187C9F /* ProductDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A9A84228147CDF00187C9F /* ProductDetail.swift */; };
 		20A9A8452814829200187C9F /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A9A8442814829200187C9F /* Product.swift */; };
 		20A9A84928149E1C00187C9F /* ProductListGet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A9A84828149E1C00187C9F /* ProductListGet.swift */; };
+		20C9CD4F2816D81900C50904 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20C9CD4E2816D81900C50904 /* LaunchScreen.storyboard */; };
+		20C9CD522816DE4800C50904 /* ImagotipoWithOutBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 20C9CD512816DE4800C50904 /* ImagotipoWithOutBG.png */; };
 		20F6B1BD281394A000EAC81C /* MeliProductosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F6B1BC281394A000EAC81C /* MeliProductosApp.swift */; };
 		20F6B1BF281394A000EAC81C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F6B1BE281394A000EAC81C /* ContentView.swift */; };
 		20F6B1C1281394A000EAC81C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20F6B1C0281394A000EAC81C /* Assets.xcassets */; };
@@ -59,6 +61,8 @@
 		20A9A84228147CDF00187C9F /* ProductDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetail.swift; sourceTree = "<group>"; };
 		20A9A8442814829200187C9F /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		20A9A84828149E1C00187C9F /* ProductListGet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListGet.swift; sourceTree = "<group>"; };
+		20C9CD4E2816D81900C50904 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20C9CD512816DE4800C50904 /* ImagotipoWithOutBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ImagotipoWithOutBG.png; path = ../../../Assest/Brand/PNG/ImagotipoWithOutBG.png; sourceTree = "<group>"; };
 		20F6B1B9281394A000EAC81C /* MeliProductos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeliProductos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20F6B1BC281394A000EAC81C /* MeliProductosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeliProductosApp.swift; sourceTree = "<group>"; };
 		20F6B1BE281394A000EAC81C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -106,8 +110,17 @@
 				204EF5302815F1D8003DE895 /* ImageByUrl.swift */,
 				204EF53B281618D2003DE895 /* NoProductsFound.swift */,
 				204EF53F28164B35003DE895 /* LoadingProducts.swift */,
+				20C9CD4E2816D81900C50904 /* LaunchScreen.storyboard */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		20C9CD502816DE1300C50904 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				20C9CD512816DE4800C50904 /* ImagotipoWithOutBG.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 		20F6B1B0281394A000EAC81C = {
@@ -133,6 +146,7 @@
 		20F6B1BB281394A000EAC81C /* MeliProductos */ = {
 			isa = PBXGroup;
 			children = (
+				20C9CD502816DE1300C50904 /* Images */,
 				204EF53228160D6D003DE895 /* Info.plist */,
 				20F6B1EA2813955300EAC81C /* Resources */,
 				20F6B1E92813954800EAC81C /* Extensions */,
@@ -357,7 +371,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20C9CD522816DE4800C50904 /* ImagotipoWithOutBG.png in Resources */,
 				20F6B1C4281394A000EAC81C /* Preview Assets.xcassets in Resources */,
+				20C9CD4F2816D81900C50904 /* LaunchScreen.storyboard in Resources */,
 				20F6B1ED2813959100EAC81C /* Colours.xcassets in Resources */,
 				20F6B1C1281394A000EAC81C /* Assets.xcassets in Resources */,
 			);
@@ -552,6 +568,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MeliProductos/Preview Content\"";
@@ -562,6 +579,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
@@ -583,6 +601,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MeliProductos/Preview Content\"";
@@ -593,6 +612,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.7;

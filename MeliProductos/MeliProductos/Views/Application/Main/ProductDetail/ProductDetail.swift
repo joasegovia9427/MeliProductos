@@ -38,7 +38,7 @@ struct ProductDetail: View {
                     VStack {
                         VStack(alignment: .leading){
                             Text("Condición: \(detailHeader) vendidos").font(.subheadline).foregroundColor(Color("gray-dark")).multilineTextAlignment(.leading)
-                            Text("\(product_title)").font(.title).foregroundColor(Color("meli-Blue")).multilineTextAlignment(.leading).lineLimit(0)
+                            Text("\(product_title)").font(.title).foregroundColor(Color("meli-Blue")).multilineTextAlignment(.leading).lineLimit(Int.max)
                         }.frame(maxWidth: .infinity, alignment: .leading)
                         
                         VStack{
@@ -50,7 +50,7 @@ struct ProductDetail: View {
                         }.frame(maxWidth: .infinity, alignment: .center)
                         
                         VStack(alignment: .leading){
-                            Text("$ \(product_price)").font(.title).foregroundColor(Color("meli-Blue")).multilineTextAlignment(.leading).lineLimit(0)
+                            Text("$ \(product_price)").font(.title).foregroundColor(Color("meli-Blue")).multilineTextAlignment(.leading).lineLimit(Int.max)
                             
                             HStack{
                                 Image("shipping").resizable().aspectRatio( contentMode: .fit).frame(width: 20, height: 20, alignment: .center)
