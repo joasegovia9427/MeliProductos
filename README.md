@@ -37,6 +37,12 @@ https://docs.google.com/document/d/1iFs4nmE1Bxvh0JQSIJkaK7kC1pd697c2uFuwvtrb5Gk/
 ## Figma Link::
 https://www.figma.com/file/mhUz0NGHBp8BHDYPJVR5ys/MeliProducts?node-id=0%3A1
 
+## Demo (rotation keep state feature)::
+![](DemoRotationKeepState.gif)
+
+If you dont see the gif, YouTube Link
+https://youtu.be/-RdsUkPBUJs
+
 ## Screenshots::
 <img src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/screen01.png" width="30px" data-canonical-src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/screen01.png" style="width: 100%;">
 
@@ -45,13 +51,6 @@ https://www.figma.com/file/mhUz0NGHBp8BHDYPJVR5ys/MeliProducts?node-id=0%3A1
 <img src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/screen03a.png" width="30px" data-canonical-src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/screen03a.png" style="width: 100%;">
 
 <img src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/screen03b.png" width="30px" data-canonical-src="https://raw.githubusercontent.com/joasegovia9427/MeliProductos/main/ScreenShots/screen03b.png" style="width: 100%;">
-
-
-![](DemoRotationKeepState.gif)
-
-https://youtu.be/-RdsUkPBUJs
-
-
 
 
 # Installation / Instalación
