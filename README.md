@@ -97,6 +97,7 @@ En dicho proyecto, puse en práctica todas las habilidades aprendidas hasta el m
 5. Add Authentication (Login and Registration)
 6. Add a tabView with options to Search, List Categories, Profile and Edit Profile, Favorites, etc.
 7. Add 'progressBar/loader' animations in async web requests
+8. Add webView to open Seller Reputation link
 <br>
 
 🇪🇸 > Si bien hay detalles que se pueden mejorar, adjunto lista de features que me gustaría implementar.
@@ -107,6 +108,7 @@ En dicho proyecto, puse en práctica todas las habilidades aprendidas hasta el m
 5. Agregar Authentication (Iniciar sesión y Registro)
 6. Agregar un tabView con opciones para Buscar, Listar Categorías, Perfil y Editar Perfil, Favoritos, etc.
 7. Agregar animaciones ‘progressBar/loader’ en peticiones web async
+8. Agregar webView para abrir el link de calificacion y reputacion de vendedor
 
 
 --------------------------------
