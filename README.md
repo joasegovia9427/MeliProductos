@@ -112,22 +112,22 @@ En dicho proyecto, puse en práctica todas las habilidades aprendidas hasta el m
 
 ## Features Requested completed / Características solicitadas completadas
 
-🇬🇧 > 8. In the project there is 6 ways to get webView
-     -1: SearchView: A Button with a openURL inside action section, to open external Safari
-     -2: DetailView: A Link with destination url to open external Safari
-     -3: DetailView: A WKWebView to open url with sheet modal
-     -4: DetailView: A WKWebView to open url with full view
-     -5: DetailView: A SFSafariViewController to open url with sheet modal
-     -6: DetailView: A SFSafariViewController to open url with full view
+🇬🇧 > 8. In the project there is 6 ways to get webView<br>
+     -1: SearchView: A Button with a openURL inside action section, to open external Safari<br>
+     -2: DetailView: A Link with destination url to open external Safari<br>
+     -3: DetailView: A WKWebView to open url with sheet modal<br>
+     -4: DetailView: A WKWebView to open url with full view<br>
+     -5: DetailView: A SFSafariViewController to open url with sheet modal<br>
+     -6: DetailView: A SFSafariViewController to open url with full view<br>
 I believe real Meli, actually use 4 or 6 to open full html views inside app, with the same UI Look & Feel. Would be it true?? :) 
 
-🇪🇸 > En el proyecto hay 6 formas de obtener webView
-      -1: SearchView: un botón con una sección de acción dentro de openURL, para abrir Safari externo
-      -2: DetailView: un enlace con la URL de destino para abrir Safari externo
-      -3: DetailView: un WKWebView para abrir url con hoja modal
-      -4: DetailView: un WKWebView para abrir url con vista completa
-      -5: DetailView: un SFSafariViewController para abrir url con hoja modal
-      -6: DetailView: un SFSafariViewController para abrir url con vista completa
+🇪🇸 > En el proyecto hay 6 formas de obtener webView<br>
+      -1: SearchView: un botón con una sección de acción dentro de openURL, para abrir Safari externo<br>
+      -2: DetailView: un enlace con la URL de destino para abrir Safari externo<br>
+      -3: DetailView: un WKWebView para abrir url con hoja modal<br>
+      -4: DetailView: un WKWebView para abrir url con vista completa<br>
+      -5: DetailView: un SFSafariViewController para abrir url con hoja modal<br>
+      -6: DetailView: un SFSafariViewController para abrir url con vista completa<br>
 Creo que Meli real, en realidad usa 4 o 6 para abrir vistas html completas dentro de la aplicación, con la misma interfaz de usuario Look & Feel. sera verdad?? :)
 
 --------------------------------
