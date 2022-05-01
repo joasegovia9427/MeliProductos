@@ -87,7 +87,7 @@ In this project, I put into practice all the skills learned so far and apply wha
 🇪🇸 > Considero que la realización de este proyecto fue una muy buena oportunidad para evaluar mi estado actual como profesional.
 En dicho proyecto, puse en práctica todas las habilidades aprendidas hasta el momento y aplicar lo que me apasiona, crear soluciones, crear productos, crear aplicaciones que un usuario final pueda usar, y la cual le sea útil.
 
-## Future features
+## Future features / Características que me gustaría implementar
 
 🇬🇧 > Although there are details that can be improved, I am attaching a list of features that I would like to implement.
 1. Add Test throughout the project
