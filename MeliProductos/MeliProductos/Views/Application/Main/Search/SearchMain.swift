@@ -86,8 +86,9 @@ struct SearchMain: View {
                             //                        Spacer()
                             //This space could be used to load some categories
                             
-                            Spacer().frame(height: 50 )
+                            Spacer().frame(height: 50)
                             
+                            ////First way to open a link in browser
                             Button(action: {
                                 openURL(URL(string: "https://www.linkedin.com/in/joaquinsegovia/")!)
                             }, label: {

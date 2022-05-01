@@ -27,6 +27,12 @@ struct ProductDetail: View {
     @State var product_seller_salesCompleted = ""
     @State var product_seller_link: String = ""
     
+    @State private var showModalWebView = false
+    @State private var showFullWebView = false
+    
+    @State private var showModalSafariViewController = false
+    @State private var showFullSafariViewController = false
+    
     var body: some View {
         ZStack {
             Color(.white).ignoresSafeArea()
@@ -61,10 +67,13 @@ struct ProductDetail: View {
                             HStack{
                                 Text("Transacciones totales del: ").font(.subheadline).foregroundColor(Color("gray-dark"))
                                 
+                                ////A way to open a webView in App with SFSafariViewController
                                 Button(action: {
-                                    openURL(URL(string: "\(product_seller_link)")!)
+                                    showModalSafariViewController = true
                                 }, label: {
                                     Text("vendedor").font(.subheadline).foregroundColor(Color("primary")).offset(x: -5)
+                                }).sheet(isPresented: $showModalSafariViewController, content: {
+                                    SafariWebView(url: product_seller_link)
                                 })
                                 
                                 Text("\(product_seller_salesCompleted)").font(.subheadline).foregroundColor(Color("gray-dark")).multilineTextAlignment(.leading).offset(x: -5)
@@ -76,8 +85,9 @@ struct ProductDetail: View {
                         }.frame(maxWidth: .infinity, alignment: .leading)
                         
                         VStack{
+                            ////Other way to open a webView in App with SFSafariViewController
                             Button(action: {
-                                openURL(URL(string: "\(product_link)")!)
+                                showFullSafariViewController = true
                             }, label: {
                                 Text(String("Comprar ahora"))
                                     .fontWeight(.bold)
@@ -87,8 +97,9 @@ struct ProductDetail: View {
                                     .background(Color("primary"))
                             }).cornerRadius(5).padding(.top, 20).padding(.bottom, 5)
                             
+                            ////A way to open a webView in App with WKWebView
                             Button(action: {
-                                openURL(URL(string: "\(product_link)")!)
+                                showFullWebView = true
                             }, label: {
                                 Text(String("Agregar al carrito"))
                                     .fontWeight(.bold)
@@ -98,7 +109,6 @@ struct ProductDetail: View {
                                     .background(Color("secondary"))
                             }).cornerRadius(5).padding(.top, 5).padding(.bottom, 20)
                             
-                            
                         }.frame(maxWidth: .infinity, alignment: .center)
                         
                         VStack(alignment: .leading){
@@ -106,8 +116,9 @@ struct ProductDetail: View {
                         }.frame(maxWidth: .infinity, alignment: .leading)
                         
                         VStack{
+                            ////Other way to open a webView in App with WKWebView
                             Button(action: {
-                                openURL(URL(string: "\(mercadoPagoLink)")!)
+                                showModalWebView = true
                             }, label: {
                                 HStack{
                                     Image(systemName: "creditcard").resizable().aspectRatio( contentMode: .fit).frame(width: 20, height: 20, alignment: .center).foregroundColor(Color("white"))
@@ -116,27 +127,33 @@ struct ProductDetail: View {
                                     .padding(EdgeInsets(top: 11, leading: 18, bottom: 11, trailing: 18))
                                     .background(Color("green"))
                             }).cornerRadius(5).padding(.bottom, 30)
-                            
+                                .sheet(isPresented: $showModalWebView, content: {
+                                WebView(url: mercadoPagoLink)
+                            })
                             
                             VStack(alignment: .leading){
                                 Text("Preguntas").font(.title2).foregroundColor(Color("gray-dark")).multilineTextAlignment(.leading)
                             }.frame(maxWidth: .infinity, alignment: .leading)
                             
-                            Button(action: {
-                                openURL(URL(string: "\(product_link)")!)
-                            }, label: {
-                                Text(String("Preguntar"))
-                                    .fontWeight(.bold)
-                                    .foregroundColor(Color("white"))
-                                    .frame(maxWidth: .infinity, alignment: .center)
-                                    .padding(EdgeInsets(top: 11, leading: 18, bottom: 11, trailing: 18))
-                                    .background(Color("primary"))
-                            }).cornerRadius(5).padding(.bottom, 20)
+                        ////Other way to open a link in browser
+                           Link(destination: URL(string: "\(product_link_global)")!, label: {
+                               Text(String("Preguntar"))
+                                   .fontWeight(.bold)
+                                   .foregroundColor(Color("white"))
+                                   .frame(maxWidth: .infinity, alignment: .center)
+                                   .padding(EdgeInsets(top: 11, leading: 18, bottom: 11, trailing: 18))
+                                   .background(Color("primary")).cornerRadius(5).padding(.bottom, 20)
+                           })
                             
                         }.frame(maxWidth: .infinity, alignment: .center)
                         
-                        
                     }.frame(maxWidth: .infinity).padding(.horizontal, 20.0)
+                    
+                    Spacer().frame(height: 50)
+                    
+                    NavigationLink(isActive: $showFullWebView, destination: {WebView(url: product_link)}, label: {EmptyView()})
+                    NavigationLink(isActive: $showFullSafariViewController, destination: {SafariWebView(url: product_link)}, label: {EmptyView()})
+                    
                 }
                 
             }.ignoresSafeArea()

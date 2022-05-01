@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2014CA27281F148A0096C838 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2014CA26281F148A0096C838 /* WebView.swift */; };
+		2014CA29281F1C330096C838 /* SafariWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2014CA28281F1C330096C838 /* SafariWebView.swift */; };
 		204EF52B2815E171003DE895 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 204EF52A2815E171003DE895 /* Kingfisher */; };
 		204EF5312815F1D8003DE895 /* ImageByUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204EF5302815F1D8003DE895 /* ImageByUrl.swift */; };
 		204EF53C281618D2003DE895 /* NoProductsFound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204EF53B281618D2003DE895 /* NoProductsFound.swift */; };
@@ -49,6 +51,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2014CA26281F148A0096C838 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		2014CA28281F1C330096C838 /* SafariWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebView.swift; sourceTree = "<group>"; };
 		204EF5302815F1D8003DE895 /* ImageByUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageByUrl.swift; sourceTree = "<group>"; };
 		204EF53228160D6D003DE895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		204EF53B281618D2003DE895 /* NoProductsFound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoProductsFound.swift; sourceTree = "<group>"; };
@@ -205,6 +209,8 @@
 			isa = PBXGroup;
 			children = (
 				204EF53D28161AD8003DE895 /* ChangeNavColor.swift */,
+				2014CA26281F148A0096C838 /* WebView.swift */,
+				2014CA28281F1C330096C838 /* SafariWebView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -411,8 +417,10 @@
 				20A9A83D2814764E00187C9F /* SearchMain.swift in Sources */,
 				204EF5312815F1D8003DE895 /* ImageByUrl.swift in Sources */,
 				204EF53C281618D2003DE895 /* NoProductsFound.swift in Sources */,
+				2014CA29281F1C330096C838 /* SafariWebView.swift in Sources */,
 				20A9A84128147A0500187C9F /* HeaderSimple.swift in Sources */,
 				20F6B1BD281394A000EAC81C /* MeliProductosApp.swift in Sources */,
+				2014CA27281F148A0096C838 /* WebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

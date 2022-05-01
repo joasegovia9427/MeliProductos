@@ -12,6 +12,8 @@ var product_title       = ""
 var product_price       = ""
 var product_condition   = ""
 
+var product_link_global = ""
+
 struct ProductList: View {
     @State var refresh: Bool = false
     @State var textFromPreviousView: String
@@ -69,9 +71,9 @@ struct ProductList: View {
                                             
                                             return Text("") }()
                                         
-                                        
                                         Button(action:{
                                             productToSendDetail = product
+                                            product_link_global = product.permalink
                                             viewProductDetail()
                                         } , label: {
                                             
@@ -129,7 +131,6 @@ struct ProductList: View {
     func viewProductDetail() {
         print("func viewProductDetail()")
         detail_product_title = product_title
-        
         isNavigateToProductDetailActive.toggle()
     }
     
