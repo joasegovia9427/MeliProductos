@@ -4,11 +4,9 @@
 🇬🇧 > An App where you can find product and see its detail. <br>
 🇪🇸 > Una App donde puedes encontrar tus productos y ver su detalle.
 
-[![Size](https://img.shields.io/cocoapods/p/Simple-Networking.svg?style=flat)](https://img.shields.io/github/languages/code-size/joasegovia9427/meliproductos)
-
-
-[![Version](https://img.shields.io/github/languages/code-size/joasegovia9427/meliproductos)]
-[![Platform](https://img.shields.io/cocoapods/p/Simple-Networking.svg?style=flat)](https://developer.apple.com/ios/)
+![Tech](https://img.shields.io/badge/Tech-SwiftUI-red)
+![Platform](https://img.shields.io/badge/Platform-iOS-blue)
+![GitHub repo file count](https://img.shields.io/github/directory-file-count/joasegovia9427/meliproductos)
 
 -  [About](#about-the-app--sobre-la-aplicación)
 -  [Requirements](#minimal-requirements--requerimientos-m%C3%ADnimos)
