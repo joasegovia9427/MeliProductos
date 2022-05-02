@@ -6,7 +6,6 @@
 
 ![Tech](https://img.shields.io/badge/Tech-SwiftUI-red)
 ![Platform](https://img.shields.io/badge/Platform-iOS-blue)
-![GitHub repo file count](https://img.shields.io/github/directory-file-count/joasegovia9427/meliproductos)
 
 -  [About](#about-the-app--sobre-la-aplicación)
 -  [Requirements](#minimal-requirements--requerimientos-m%C3%ADnimos)
