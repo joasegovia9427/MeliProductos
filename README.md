@@ -6,7 +6,7 @@
 
 ![Tech](https://img.shields.io/badge/Tech-SwiftUI-red)
 ![Platform](https://img.shields.io/badge/Platform-iOS-blue)
-![Dependencies](hhttps://img.shields.io/badge/Dependencies-1-green)
+![Dependencies](https://img.shields.io/badge/Dependencies-1-green)
 
 
 -  [About](#about-the-app--sobre-la-aplicación)
