@@ -5,7 +5,7 @@
 🇪🇸 > Una App donde puedes encontrar tus productos y ver su detalle.
 
 [![Version](https://img.shields.io/cocoapods/v/Simple-Networking.svg?style=flat)](https://cocoapods.org/pods/Simple-Networking)
-[![Platform](https://img.shields.io/cocoapods/p/Simple-Networking.svg?style=flat)]
+![Platform](https://img.shields.io/cocoapods/p/Simple-Networking.svg?style=flat)
 
 -  [About](#about-the-app--sobre-la-aplicación)
 -  [Requirements](#minimal-requirements--requerimientos-m%C3%ADnimos)
