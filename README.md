@@ -4,12 +4,18 @@
 🇬🇧 > An App where you can find product and see its detail. <br>
 🇪🇸 > Una App donde puedes encontrar tus productos y ver su detalle.
 
--  [About](#about)
--  [Documentation](#documentation)
--  [Design](#design)
--  [Demo](#dmo)
--  [Dependencies](#deendencies)
--  [Closure](#closure)
+-  [About](#about-the-app--sobre-la-aplicación)
+-  [Requirements](#minimal-requirements--requerimientos-m%C3%ADnimos)
+-  [Documentation](#documentation--documentación)
+-  [Design](#design-and-preview--diseño-y-vista-previa)
+-  [Figma](#figma-link)
+-  [Demo](#demo-rotation-keep-state-feature)
+-  [Screenshots](#screenshots)
+-  [Dependencies](#dependencies--dependencias)
+-  [Installation](#installation--instalación)
+-  [Closure](#closure--cierre)
+-  [Future Features](#future-features--caracter%C3%ADsticas-que-me-gustar%C3%ADa-implementar)
+-  [Features Requested Completed](#features-requested-completed--caracter%C3%ADsticas-solicitadas-completadas)
 
 # About the App / Sobre la aplicación
 🇬🇧 > MeliProductos is an iOS App to find products in a huge catalog. The user can search and view the detail of a particular product.
