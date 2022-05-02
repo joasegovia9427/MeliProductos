@@ -4,8 +4,11 @@
 🇬🇧 > An App where you can find product and see its detail. <br>
 🇪🇸 > Una App donde puedes encontrar tus productos y ver su detalle.
 
-[![Version](https://img.shields.io/cocoapods/v/Simple-Networking.svg?style=flat)](https://cocoapods.org/pods/Simple-Networking)
-![Platform](https://img.shields.io/cocoapods/p/Simple-Networking.svg?style=flat)(https://developer.apple.com/ios/)
+[![Size](https://img.shields.io/cocoapods/p/Simple-Networking.svg?style=flat)](https://img.shields.io/github/languages/code-size/joasegovia9427/meliproductos)
+
+
+[![Version](https://img.shields.io/github/languages/code-size/joasegovia9427/meliproductos)]
+[![Platform](https://img.shields.io/cocoapods/p/Simple-Networking.svg?style=flat)](https://developer.apple.com/ios/)
 
 -  [About](#about-the-app--sobre-la-aplicación)
 -  [Requirements](#minimal-requirements--requerimientos-m%C3%ADnimos)
